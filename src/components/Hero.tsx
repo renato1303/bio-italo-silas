@@ -5,23 +5,23 @@ import { HERO_DATA } from '../data';
 
 export const Hero: React.FC = () => {
   return (
-    <section id="hero" className="relative min-h-[85vh] sm:min-h-[90vh] flex items-center justify-center sm:justify-start pt-20 sm:pt-20 pb-12 sm:pb-16 px-4 sm:px-8 overflow-hidden bg-slate-950">
+    <section id="hero" className="relative min-h-[90vh] flex items-end sm:items-center pt-[280px] sm:pt-20 pb-12 sm:pb-16 px-4 sm:px-8 overflow-hidden bg-slate-950">
       {/* Background Layer 1: Dark Base */}
       <div className="absolute inset-0 bg-slate-950 z-0"></div>
 
-      {/* Background Layer 2: Main Background Image (lp-1.png) */}
+      {/* Background Layer 2: Crisp Main Background Image (100% Opacity) */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img
           src={HERO_DATA.heroBgImage}
           alt="Ítalo Silas"
-          className="w-full h-full object-cover object-[82%_0%] sm:object-right opacity-90 sm:opacity-100 transition-all duration-500"
+          className="w-full h-full object-cover object-[90%_top] sm:object-right opacity-100 transition-all duration-500"
           loading="eager"
         />
       </div>
 
-      {/* Background Layer 3: Gradient Overlay for Text Legibility & Smooth Blend */}
-      <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/85 sm:via-slate-950/70 to-slate-950/30 z-0"></div>
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 sm:via-transparent to-slate-950/50 z-0"></div>
+      {/* Background Layer 3: Gradient Overlays for Text Contrast (Leaves face clear at top) */}
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/30 sm:via-slate-950/70 to-transparent z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/85 sm:via-transparent to-transparent z-0 pointer-events-none"></div>
 
       {/* Ambient Radial Glow Orb */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 sm:translate-x-0 sm:left-0 w-80 sm:w-96 h-80 sm:h-96 bg-indigo-600/10 rounded-full blur-3xl pointer-events-none z-0"></div>
