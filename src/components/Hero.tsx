@@ -9,15 +9,19 @@ export const Hero: React.FC = () => {
       {/* Background Layer 1: Animated Dark Ambient Gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-950/60 to-indigo-950/30 z-0"></div>
 
-      {/* Background Layer 2: Main Background Image (lp-1.png) - Slight zoom out and crisp opacity */}
-      <div 
-        className="absolute inset-0 bg-[position:80%_15%] sm:bg-right bg-cover bg-no-repeat opacity-100 z-0 transition-all duration-700"
-        style={{ backgroundImage: `url('${HERO_DATA.heroBgImage}')` }}
-      ></div>
+      {/* Background Layer 2: Crisp Main Background Image (lp-1.png) - Fixed Mobile Scale */}
+      <div className="absolute top-0 left-0 right-0 h-[360px] sm:h-full sm:inset-0 z-0 overflow-hidden">
+        <img
+          src={HERO_DATA.heroBgImage}
+          alt="Ítalo Silas"
+          className="w-full h-full object-cover object-[75%_15%] sm:object-right opacity-100 transition-all duration-700"
+          loading="eager"
+        />
+      </div>
 
       {/* Background Layer 3: Lighter Gradient Mask on Mobile to keep image bright and clear */}
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/50 sm:via-slate-950/60 to-transparent z-0"></div>
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/75 sm:via-transparent to-transparent sm:to-slate-950/40 z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/80 sm:via-transparent to-transparent sm:to-slate-950/40 z-0"></div>
 
       {/* Ambient Radial Glow Orb */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 sm:translate-x-0 sm:left-0 w-80 sm:w-96 h-80 sm:h-96 bg-indigo-600/10 rounded-full blur-3xl pointer-events-none z-0"></div>
