@@ -7,7 +7,7 @@ export const HERO_DATA = {
   ctaLine2: "MEU NÍVEL DE INGLÊS",
   ctaText: "EU QUERO TESTAR MEU NÍVEL DE INGLÊS",
   ctaLink: "https://form.respondi.app/rSvhtPJP",
-  heroBgImage: "https://italosilas.com.br/wp-content/uploads/2025/08/lp-1.png",
+  heroBgImage: "/bg-hero.png",
   stats: [
     { label: "Alunos Testados", value: "+10.000" },
     { label: "Precisão do Teste", value: "98.5%" },
