@@ -1,0 +1,6 @@
+{
+  "name": "Italo Silas - Inglês",
+  "description": "Landing page interativa e moderna para testes de nível, cursos e mentorias de inglês com Italo Silas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
