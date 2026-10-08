@@ -2,11 +2,9 @@ import { FeatureCardData, QuizQuestion, Testimonial, FAQItem } from './types';
 
 export const HERO_DATA = {
   title: "TESTE SEU NÍVEL DE INGLÊS!",
-  subtitle: "Faça agora seu teste de inglês e descubra em qual nível você está nesse momento de forma gratuita e instantânea.",
-  ctaLine1: "EU QUERO TESTAR",
-  ctaLine2: "MEU NÍVEL DE INGLÊS",
-  ctaText: "EU QUERO TESTAR MEU NÍVEL DE INGLÊS",
-  ctaLink: "https://form.respondi.app/rSvhtPJP",
+  subtitle: "Faça o quiz e descubra o seu nível de autonomia para conversar em inglês.",
+  ctaText: "Iniciar o QUIZ",
+  ctaLink: "https://form.respondi.app/Dxa9lhhv",
   heroBgImage: "/bg-hero.png",
   stats: [
     { label: "Alunos Testados", value: "+10.000" },
@@ -17,51 +15,51 @@ export const HERO_DATA = {
 
 export const FEATURE_CARDS: FeatureCardData[] = [
   {
-    id: "aeroporto",
-    title: "Inglês para Aeroporto",
-    description: "Viaje tranquilo e sem medo. Domine os termos, imigração, compras e situações de emergência sem travar no aeroporto.",
-    tag: "NOVIDADE",
-    badgeIcon: "Plane",
-    bgImage: "https://italosilas.com.br/wp-content/uploads/2025/08/card12.png",
-    buttonText: "CLIQUE AQUI PARA CONHECER",
-    link: "https://chk.eduzz.com/swru6lrt",
+    id: "imersao",
+    title: "IMERSÃO",
+    description: "Estude e pratique Inglês no seu tempo/horário, mas com direcionamento, praticando 80% e com meu acompanhamento.",
+    tag: "FLEXÍVEL",
+    badgeIcon: "BookOpen",
+    bgImage: "/IMG_0249 (1).jpg",
+    buttonText: "CONHECER A IMERSÃO",
+    link: "https://form.respondi.app/hYLuTFiC",
     highlights: [
-      "Diálogos reais de imigração e alfândega",
-      "Frases essenciais para embarque e extravio de bagagem",
-      "Vocabulário prático e pronúncia rápida"
+      "Estude no seu próprio ritmo e horário",
+      "Metodologia focada em 80% de prática ativa",
+      "Direcionamento e acompanhamento com Ítalo Silas"
     ],
     ctaVariant: "blue"
   },
   {
-    id: "mentoria",
-    title: "Mentoria",
-    description: "Alcance seu próximo nível de fluência em 12 meses. Acompanhamento direto e plano personalizado para acelerar seus resultados.",
-    tag: "NOVIDADE",
-    badgeIcon: "Award",
+    id: "aceleracao",
+    title: "ACELERAÇÃO",
+    description: "Acelere sua autonomia através de uma imersão de inglês fora da sala e com encontros semanais de conversação ao vivo.",
+    tag: "MAIS BUSCADO",
+    badgeIcon: "Zap",
     bgImage: "https://italosilas.com.br/wp-content/uploads/2025/08/card11.png",
-    buttonText: "CLIQUE AQUI PARA CONHECER",
+    buttonText: "CONHECER A ACELERAÇÃO",
     link: "https://form.respondi.app/cuKciSUG",
     highlights: [
-      "Mentoria individual com itinerário personalizado",
-      "Feedback contínuo de pronúncia e conversação",
-      "Suporte de alta performance em 12 meses"
+      "Imersão prática fora da sala de aula",
+      "Encontros semanais de conversação ao vivo",
+      "Desenvolvimento acelerado de autonomia"
     ],
     ctaVariant: "purple",
     popular: true
   },
   {
-    id: "grupovip",
-    title: "Grupo VIP",
-    description: "Aulas e Lives Gratuitas diretamente no seu WhatsApp. Conteúdos práticos semanais e networking com quem quer evoluir.",
-    tag: "NOVIDADE",
-    badgeIcon: "Users",
-    bgImage: "https://italosilas.com.br/wp-content/uploads/2025/08/card4.png",
-    buttonText: "CLIQUE AQUI PARA CONHECER",
-    link: "https://chat.whatsapp.com/LUKsggPtWtd5USEwNRnZpf",
+    id: "mentoria",
+    title: "MENTORIA",
+    description: "Seja acompanhado individualmente e de forma exclusiva para desenvolver sua autonomia no inglês.",
+    tag: "EXCLUSIVO",
+    badgeIcon: "Award",
+    bgImage: "/WhatsApp Image 2025-08-19 at 08.08.14-1.jpg",
+    buttonText: "CONHECER A MENTORIA",
+    link: "https://form.respondi.app/ZklI9aa4",
     highlights: [
-      "Acesso instantâneo a lives exclusivas",
-      "Materiais em PDF e exercícios em áudio",
-      "Comunidade engajada e focada em falar inglês"
+      "Acompanhamento individual e exclusivo",
+      "Foco total nos seus objetivos pessoais ou profissionais",
+      "Evolução rápida e personalizada"
     ],
     ctaVariant: "green"
   }

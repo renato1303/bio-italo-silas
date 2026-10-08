@@ -71,9 +71,8 @@ export const Hero: React.FC = () => {
                 {/* Continuous Shimmer Light Beam Effect */}
                 <span className="absolute inset-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/35 to-transparent -skew-x-12 animate-shimmer-beam pointer-events-none"></span>
 
-                <span className="relative z-10 drop-shadow-sm text-center flex flex-col items-center justify-center leading-snug w-full">
-                  <span>{HERO_DATA.ctaLine1}</span>
-                  <span>{HERO_DATA.ctaLine2}</span>
+                <span className="relative z-10 drop-shadow-sm text-center flex items-center justify-center leading-snug w-full">
+                  <span>{HERO_DATA.ctaText}</span>
                 </span>
               </span>
             </a>
