@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { ShieldCheck, Clock } from 'lucide-react';
 import { HERO_DATA } from '../data';
 
 export const Hero: React.FC = () => {
@@ -76,51 +75,6 @@ export const Hero: React.FC = () => {
                 </span>
               </span>
             </a>
-          </motion.div>
-
-          {/* Trust Badges Bar - Scroll reveal transition */}
-          <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-30px" }}
-            transition={{ duration: 0.7, ease: "easeOut" }}
-            className="mt-12 sm:mt-12 pt-6 sm:pt-8 border-t border-white/10 w-full grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-3.5 text-left"
-          >
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-30px" }}
-              transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
-              className="glass-card rounded-2xl p-3.5 sm:p-4 flex items-center gap-3.5 group border border-white/10 hover:border-indigo-400/60 bg-slate-900/40 hover:bg-indigo-950/40 hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 shadow-md hover:shadow-indigo-500/20"
-            >
-              <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-indigo-500/20 border border-indigo-500/30 flex items-center justify-center text-indigo-400 shrink-0 group-hover:bg-indigo-500 group-hover:text-white group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-sm">
-                <Clock className="w-4 h-4 sm:w-5 sm:h-5" />
-              </div>
-              <div className="flex-1">
-                <div className="text-sm sm:text-base font-extrabold text-white font-display group-hover:text-indigo-200 transition-colors">
-                  3 Minutos
-                </div>
-                <div className="text-[11px] sm:text-xs text-slate-400 group-hover:text-slate-300 transition-colors">Teste rápido de nível</div>
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-30px" }}
-              transition={{ duration: 0.6, delay: 0.25, ease: "easeOut" }}
-              className="glass-card rounded-2xl p-3.5 sm:p-4 flex items-center gap-3.5 group border border-white/10 hover:border-emerald-400/60 bg-slate-900/40 hover:bg-emerald-950/40 hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 shadow-md hover:shadow-emerald-500/20"
-            >
-              <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0 group-hover:bg-emerald-500 group-hover:text-white group-hover:scale-110 group-hover:-rotate-6 transition-all duration-300 shadow-sm">
-                <ShieldCheck className="w-4 h-4 sm:w-5 sm:h-5" />
-              </div>
-              <div className="flex-1">
-                <div className="text-sm sm:text-base font-extrabold text-white font-display group-hover:text-emerald-200 transition-colors">
-                  100% Gratuito
-                </div>
-                <div className="text-[11px] sm:text-xs text-slate-400 group-hover:text-slate-300 transition-colors">Sem custos ou cadastro</div>
-              </div>
-            </motion.div>
           </motion.div>
 
         </div>

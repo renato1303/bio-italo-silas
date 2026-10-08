@@ -1,8 +1,8 @@
 import { FeatureCardData, QuizQuestion, Testimonial, FAQItem } from './types';
 
 export const HERO_DATA = {
-  title: "TESTE SEU NÍVEL DE INGLÊS!",
-  subtitle: "Faça o quiz e descubra o seu nível de autonomia para conversar em inglês.",
+  title: "DESCUBRA SEU NÍVEL DE AUTONOMIA NO INGLÊS",
+  subtitle: "Responda a perguntas rápidas e veja seu resultado em segundos.",
   ctaText: "Iniciar o QUIZ",
   ctaLink: "https://form.respondi.app/Dxa9lhhv",
   heroBgImage: "/bg-hero.png",

@@ -54,31 +54,15 @@ export const FeatureCards: React.FC = () => {
       <div className="absolute bottom-10 right-0 w-80 sm:w-96 h-80 sm:h-96 bg-purple-900/20 rounded-full blur-[140px] pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto">
-        {/* Section Header with Navigation Arrows */}
+        {/* Navigation Arrows */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-12 gap-6"
+          className="flex items-center justify-end mb-6 sm:mb-8 gap-3"
         >
-          <div className="text-left max-w-2xl space-y-3">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-xs font-bold text-indigo-400 tracking-wider uppercase">
-              <Zap className="w-3.5 h-3.5" />
-              <span>Programas & Oportunidades</span>
-            </div>
-
-            <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight font-display">
-              Acelere sua Fluência com Nossos Conteúdos
-            </h2>
-
-            <p className="text-slate-400 text-sm sm:text-base">
-              Deslize para ver todas as opções, desde materiais para viagens até mentoria completa.
-            </p>
-          </div>
-
-          {/* Desktop & Mobile Carousel Control Arrows */}
-          <div className="flex items-center gap-3 shrink-0 self-end md:self-auto">
+          <div className="flex items-center gap-3 shrink-0">
             <button
               onClick={handlePrev}
               disabled={activeIndex === 0}
@@ -164,7 +148,7 @@ export const FeatureCards: React.FC = () => {
                       {card.title}
                     </h3>
 
-                    <p className="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+                    <p className="text-slate-100 font-bold text-xs sm:text-sm leading-relaxed mb-4">
                       {card.description}
                     </p>
 
