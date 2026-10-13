@@ -137,7 +137,7 @@ export const FeatureCards: React.FC = () => {
                       card.id === 'mentoria' 
                         ? 'object-[50%_25%]' 
                         : card.id === 'aceleracao' 
-                        ? 'object-[50%_20%]' 
+                        ? 'object-[50%_10%]' 
                         : 'object-center'
                     } scale-105 group-hover:scale-115 transition-transform duration-700`}
                     loading="lazy"
