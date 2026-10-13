@@ -156,7 +156,7 @@ export const FeatureCards: React.FC = () => {
                   {/* Diagonal Ribbon for Imersao */}
                   {card.id === 'imersao' && (
                     <div className="absolute top-0 right-0 h-48 w-48 overflow-hidden pointer-events-none z-20">
-                      <div className="absolute transform rotate-45 bg-amber-400 text-slate-950 font-black text-[9px] py-1 px-6 -right-12 top-8 w-60 text-center shadow-lg uppercase tracking-wider whitespace-nowrap">
+                      <div className="absolute transform rotate-45 bg-amber-400 text-slate-950 font-black text-[9px] py-1 px-6 -right-12 top-11 w-60 text-center shadow-lg uppercase tracking-wider whitespace-nowrap">
                         VAGAS PROMOCIONAIS
                       </div>
                     </div>
