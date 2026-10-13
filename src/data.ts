@@ -36,7 +36,7 @@ export const FEATURE_CARDS: FeatureCardData[] = [
     description: "Acelere sua autonomia através de uma imersão de inglês fora da sala e com encontros semanais de conversação ao vivo.",
     tag: "MAIS BUSCADO",
     badgeIcon: "Zap",
-    bgImage: "https://italosilas.com.br/wp-content/uploads/2025/08/card11.png",
+    bgImage: "/WhatsApp Image 2026-10-08 at 15.25.53.jpeg",
     buttonText: "CONHECER A ACELERAÇÃO",
     link: "https://form.respondi.app/cuKciSUG",
     highlights: [
